@@ -11,7 +11,7 @@ module SampleApp2
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
-    config.generatorsdo|g|
+    config.generators do |g|
       g.test_framework :rspec,
         fixtures: true,
         view_specs: false,
